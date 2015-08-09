@@ -1,0 +1,1 @@
+define(["a","b","c"],function(require,exports,module){}); //只是定义没有执行

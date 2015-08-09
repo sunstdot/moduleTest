@@ -1,0 +1,1 @@
+define("a",{color:"red"}),require.config({baseUrl:"js"}),define("b",["a"],function(e){return console.log("b.js"+e.color),{color:e.color,width:"120px"}}),require.config({baseUrl:"js"}),define("c",["b"],function(e){console.log("run.js"+e.color+","+e.width)});
